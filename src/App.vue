@@ -211,6 +211,9 @@
             </symbol>
         </svg>
         <h1>Radial Menu Test</h1>
+        <div class="info">
+            <a target="_blank" href="https://github.com/axln/radial-menu-vue">https://github.com/axln/radial-menu-vue</a>
+        </div>
         <button @click="openMenu">Open Menu</button>
         <button @click="closeMenu">Close Menu</button>
         <RadialMenu ref="radialMenu" @clicked="menuClicked" :menu-items="menuItems" :size="400" close-on-click></RadialMenu>
@@ -351,4 +354,15 @@ export default {
     font-size: 13px;
     color: white;
 }
+
+div.info {
+	margin: 15px 0;
+}
+
+div.info * {
+	color: white;
+	text-shadow: 1px 1px 0 #000000D0;
+}
+
+
 </style>
