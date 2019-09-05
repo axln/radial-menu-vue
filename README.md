@@ -1,6 +1,6 @@
 # Radial Menu Component in Vue.js
 
-![Radial menu screenshot](https://raw.githubusercontent.com/axln/radial-menu-vue/master/radial-menu.png
+![Radial menu screenshot](https://raw.githubusercontent.com/axln/radial-menu-vue/master/radial-menu.png)
 
 ## Controls
 
