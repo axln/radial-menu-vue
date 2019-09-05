@@ -35,9 +35,17 @@
                        icon: '#walk'
                    },
                    {
-                       id   : 'run',
-                       title: 'Run',
-                       icon: '#run'
+                       id   : 'more',
+                       title: 'More',
+                       icon: '#more'
+                       items: [
+                           {
+                               id   : 'eat',
+                               title: 'Eat',
+                               icon: '#eat'
+                           },
+                           ...
+                       ]
                    },
                    ...
                ];
